@@ -12,6 +12,10 @@
 <body>
 <div class="wrapper">
     <ul class="message">
+        <li class="new_message_item">
+            <a class="text">Add New Message</a>
+            <a class="plus">+</a>
+        </li>
         <li class="message_item">
             <div class="message_header">
                 <div class="count_likes">0001</div>

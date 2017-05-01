@@ -11,7 +11,45 @@ body, html {
     overflow: hidden;
     box-shadow: 0 0 5px green;
     padding: 5px 10px;
+    border-radius: 20px;
+    background: ghostwhite;
 }
+.new_message_item {
+    display: block;
+    float: right;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px dashed white;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: lightpink;
+    color: darkred;
+    text-shadow: 0 0 5px white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.new_message_item .plus {
+    display: none;
+    font-size: 120px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.new_message_item:hover {
+    background: lightgreen;
+    border: 5px dashed white;
+    color: darkgreen;
+}
+.new_message_item:hover .text {
+        display: none;
+    }
+.new_message_item:hover .plus {
+        display: block;
+    }
 .wrapper {
     max-width: 960px;
     width: 100%;
@@ -19,7 +57,11 @@ body, html {
 }
 .count_likes {
     float: left;
-    width: 100px;
+    width: 80px;
+    margin-right: 20px;
+    text-align: center;
+    color: darkred;
+    font-size: 20px;
 }
 .user_nickname {
     float: left;
@@ -37,7 +79,8 @@ body, html {
     float: left;
     width: 80px;
     height: 60px;
-    background: lightcyan;
+    background: lightgrey;
+    box-shadow: 0 0 5px grey;
     margin-right: 20px;
     overflow: hidden;
 }
@@ -54,6 +97,7 @@ body, html {
 }
 .message_text {
     margin: 0;
+    text-align: justify;
 }
 .level01 {
     margin-left: 20px;
