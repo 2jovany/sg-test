@@ -23,10 +23,15 @@ body, html {
 }
 .user_nickname {
     float: left;
-    width: 200px;
+    width: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: darkgreen;
 }
 .posted_time {
     float: right;
+    color: gray;
 }
 .user_image {
     float: left;
@@ -34,6 +39,11 @@ body, html {
     height: 60px;
     background: lightcyan;
     margin-right: 20px;
+    overflow: hidden;
+}
+.user_image img {
+    width: 100%;
+    height: auto;
 }
 .message_header {
     height: 20px;
@@ -44,4 +54,19 @@ body, html {
 }
 .message_text {
     margin: 0;
+}
+.level01 {
+    margin-left: 20px;
+}
+.level02 {
+    margin-left: 40px;
+}
+.level03 {
+    margin-left: 60px;
+}
+.level04 {
+    margin-left: 80px;
+}
+.level05 {
+    margin-left: 100px;
 }
