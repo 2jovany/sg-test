@@ -36,7 +36,7 @@
                         <p class="message_text"><?= $message_item['message'] ?></p>
                     </div>
                 </li>
-           <? } ?>
+           <?php } ?>
         <?php /*
         <li class="message_item">
             <div class="message_header">
