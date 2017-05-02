@@ -82,6 +82,7 @@ body, html {
     background: lightgrey;
     box-shadow: 0 0 5px grey;
     margin-right: 20px;
+    border-radius: 25%;
     overflow: hidden;
 }
 .user_image img {
